@@ -1,0 +1,135 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+#root {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 1px;
+  text-align: center;
+}
+.hero{
+    margin-top: 10vh;
+
+  width: 100%;
+  height: 85vh;
+  background-image: url("https://img.redbull.com/images/c_crop,w_2640,h_1320,x_190,y_0/c_auto,w_1200,h_630/f_auto,q_auto/redbullcom/2025/8/11/dcusojkfgapu4zxe3gtb/minecraft-landscape");
+  background-position: 0px 0px;
+  background-size: cover;
+  box-shadow: 0px 10px 1px rgb(27, 98, 11);  
+}
+
+
+
+.logo {
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  object-fit: cover;
+  width: 60vw;
+  cursor: pointer;
+  
+}
+
+#but1{
+  margin-top: 30vh;
+  font-family:"Bungee";
+
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  border: 2px solid rgb(42, 231, 0);
+  box-shadow: 0px 5px 1px rgb(0, 81, 0);
+  color: rgb(255, 255, 255);
+  background-color:  rgb(50, 214, 0);
+
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+#og{
+  font-size: 4vw;
+  font-family:"Bungee" ;
+
+  text-decoration: underline;
+}
+.slider {
+  position: relative;
+  
+  height: 80vh;
+  max-width: 60vw;
+  margin: 50px auto;
+
+
+
+}
+
+.slide-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  align-self: center;
+  transition: transform 0.5s ease, opacity 0.5s ease;
+  border-radius: 30px;
+}
+
+
+
+.content{
+  margin-top: 8vh;
+
+  background-color: rgba(9, 9, 9, 0.726);
+  height: 100vh;
+  border-top: 2px solid grey;
+}
+
+.get{
+  padding: 10px;
+  justify-self: center;
+  align-content: center;
+ justify-items: center;
+  width: 90vw;
+  height: auto;
+  background-color: rgb(49, 49, 49);
+  border-radius: 10px;
+  text-align: center;
+}
+
+
+.get img{
+
+  margin: 0;
+  padding: 0;
+  width: 50%;
+  height: auto;
+  border-radius: 30px;
+}
+.get h2{
+
+  margin: 20px;
+  text-align: center;
+  justify-self:center;
+  text-decoration: none;
+  font-size: 2rem;
+
+}
+
+.get button{
+  margin: 10px;
+  font-size: 30px;
+  border-radius: 20px;
+  background-color: #0f9b0f;
+  color: white;
+  border: none;
+  font-family:"Bungee" ;
+  width: 50%;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+.get button:hover{
+
+  background-color: #4c934c00;
+  color: rgb(0, 169, 14);
+  border: 2px solid green;
+
+}
+.top{
+  margin-top: 10vh;
+}

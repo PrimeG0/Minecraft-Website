@@ -1,0 +1,24 @@
+h2{
+    margin-top: 3vh;
+    font-family: "Bungee";
+    margin-bottom: -50px;
+    font-size: 50px;
+    color: rgb(249, 255, 249);
+
+}
+p{
+    margin: 10px;
+    color: rgb(165, 165, 165);
+    font-size: 20px;
+}
+#img{
+   margin-top: 10vh;
+    border-radius: 20px;
+}
+.dd{
+    justify-content: center;
+    justify-self: center;
+    background-color: rgb(40, 40, 40);
+    width: 90vw;
+    border-radius: 10px;
+}
